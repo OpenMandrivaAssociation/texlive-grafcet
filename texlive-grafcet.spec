@@ -1,3 +1,9 @@
+# revision 22509
+# category Package
+# catalog-ctan /graphics/pgf/contrib/grafcet
+# catalog-date 2011-05-17 01:53:44 +0200
+# catalog-license lppl1
+# catalog-version 1.3.5
 Name:		texlive-grafcet
 Version:	1.3.5
 Release:	1
@@ -42,6 +48,7 @@ Pgf/TikZ.
 %doc %{_texmfdistdir}/doc/latex/grafcet/README
 %doc %{_texmfdistdir}/doc/latex/grafcet/grafcet.pdf
 %doc %{_texmfdistdir}/doc/latex/grafcet/grafcet.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ Pgf/TikZ.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
