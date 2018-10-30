@@ -6,7 +6,7 @@
 # catalog-version 1.3.5
 Name:		texlive-grafcet
 Version:	1.3.5
-Release:	10
+Release:	11
 Summary:	Draw Grafcet/SFC with TikZ
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/grafcet
