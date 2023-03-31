@@ -1,6 +1,6 @@
 Name:		texlive-grafcet
 Version:	22509
-Release:	1
+Release:	2
 Summary:	Draw Grafcet/SFC with TikZ
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/grafcet
