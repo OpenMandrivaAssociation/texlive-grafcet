@@ -3,7 +3,7 @@ Version:	22509
 Release:	2
 Summary:	Draw Grafcet/SFC with TikZ
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/grafcet
+URL:		https://www.ctan.org/tex-archive/graphics/pgf/contrib/grafcet
 License:	LPPL1
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/grafcet.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/grafcet.doc.r%{version}.tar.xz
